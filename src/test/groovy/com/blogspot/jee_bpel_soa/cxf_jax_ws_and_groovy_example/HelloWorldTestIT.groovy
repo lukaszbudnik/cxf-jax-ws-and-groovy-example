@@ -23,7 +23,7 @@ class HelloWorldTestIT extends GroovyTestCase {
 		person.setFirstName("Lukasz")
 		person.setLastName("Budnik")
 		def greetings = proxy.sayHiToPerson(person);
-		assertEquals("Hello Lukasz", greetings.getText())
+		assertEquals("Hello value Lukasz", greetings.getText())
 	}
 
 }
